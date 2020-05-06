@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+  color: white;
+  background: green;
+}
+
+.container {
+  width: 50%;
+  margin: 10px auto;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  width: 70%;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border: 3px solid goldenrod;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 618px;
+  height: 618px;
+}
+
+.mole {
+  background-image: url("./mole.png");
+  background-size: cover;
+}
